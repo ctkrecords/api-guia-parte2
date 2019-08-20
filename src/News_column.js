@@ -19,7 +19,7 @@ const News_column = (props) => {
             </p>
             <Card>
                 {
-                    props.news_col.articles.map(news =>  <Card.Image size="3by2" src={news.urlToImage}/>)
+                    props.news_col.articles.map(news =>  <Card.Image className="image is-3by1" src={news.urlToImage}/>)
                 }    
                
                 <Card.Content>
